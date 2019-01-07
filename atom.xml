@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>luofz&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-01-07T08:18:28.660Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>luofz</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>second title</title>
+    <link href="http://yoursite.com/2019/01/07/second-title/"/>
+    <id>http://yoursite.com/2019/01/07/second-title/</id>
+    <published>2019-01-07T08:13:36.000Z</published>
+    <updated>2019-01-07T08:18:28.660Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="dier" scheme="http://yoursite.com/categories/dier/"/>
+    
+    
+      <category term="标签" scheme="http://yoursite.com/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>new title</title>
+    <link href="http://yoursite.com/2019/01/07/new-title/"/>
+    <id>http://yoursite.com/2019/01/07/new-title/</id>
+    <published>2019-01-07T08:04:17.000Z</published>
+    <updated>2019-01-07T08:14:31.906Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/01/07/hello-world/"/>
+    <id>http://yoursite.com/2019/01/07/hello-world/</id>
+    <published>2019-01-07T02:12:19.820Z</published>
+    <updated>2019-01-07T08:30:21.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>近期目标</title>
+    <link href="http://yoursite.com/2018/12/24/%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9B%AE%E6%A0%87/"/>
+    <id>http://yoursite.com/2018/12/24/找工作目标/</id>
+    <published>2018-12-24T15:29:53.000Z</published>
+    <updated>2019-01-07T08:41:05.067Z</updated>
+    
+    <content type="html"><![CDATA[<center><font size="7" color="red"><strong>测试</strong></font></center><h1 id="一、测试"><a href="#一、测试" class="headerlink" title="一、测试"></a>一、测试</h1><p>测试<font size="5" color="red"><strong>测试</strong></font>测试测试测试</p><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">测试</span><br><span class="line">测试测试测试测试</span><br><span class="line">测试测试测试测试</span><br><span class="line">测试</span><br></pre></td></tr></table></figure><h1 id="二-测试测试测试"><a href="#二-测试测试测试" class="headerlink" title="二.测试测试测试"></a>二.测试测试测试</h1><h2 id="1-测试测试测试-html5-95"><a href="#1-测试测试测试-html5-95" class="headerlink" title="1.(测试测试测试)html5  (95%)"></a>1.(<font color="green">测试测试测试</font>)html5  (95%)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">测试测试</span><br><span class="line"></span><br><span class="line">测试  测试</span><br></pre></td></tr></table></figure><p>​       </p><h2 id="2-测试-测试-60"><a href="#2-测试-测试-60" class="headerlink" title="2.(测试)测试(60%)"></a>2.(<font color="green">测试</font>)测试(60%)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试</span><br><span class="line">测试测试测试</span><br><span class="line">测试测试测试</span><br><span class="line">测试</span><br><span class="line">测试测试</span><br><span class="line">测试</span><br></pre></td></tr></table></figure><h2 id="3-测试-测试-10"><a href="#3-测试-测试-10" class="headerlink" title="3.(测试)测试(10%)"></a>3.(<font color="blue">测试</font>)测试(10%)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试测试测试测试测试测试</span><br></pre></td></tr></table></figure><h2 id="4-1-测试-测试测试测试"><a href="#4-1-测试-测试测试测试" class="headerlink" title="4.1(测试)测试测试测试"></a>4.1(<font color="green">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">测试</span><br><span class="line"></span><br><span class="line">测试测试测试</span><br><span class="line"></span><br><span class="line">测试</span><br></pre></td></tr></table></figure><h2 id="4-2-测试-测试"><a href="#4-2-测试-测试" class="headerlink" title="4.2(测试)测试"></a>4.2(<font color="blue">测试</font>)测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试测试测试</span><br><span class="line">测试测试</span><br><span class="line">测试测试</span><br><span class="line">测试测试测试测试测试</span><br></pre></td></tr></table></figure><h2 id="5-测试-测试"><a href="#5-测试-测试" class="headerlink" title="5.(测试)测试"></a>5.(<font color="orange">测试</font>)测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试测试</span><br><span class="line">测试测试</span><br><span class="line">测试</span><br><span class="line">测试测试测试</span><br></pre></td></tr></table></figure><h2 id="7-测试-测试"><a href="#7-测试-测试" class="headerlink" title="7.(测试)测试"></a>7.(<font color="orange">测试</font>)测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="8-测试-测试测试测试"><a href="#8-测试-测试测试测试" class="headerlink" title="8.(测试)测试测试测试"></a>8.(<font color="orange">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="9-1-测试-测试测试测试"><a href="#9-1-测试-测试测试测试" class="headerlink" title="9.1(测试)测试测试测试"></a>9.1(<font color="orange">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="9-2-测试-测试测试测试"><a href="#9-2-测试-测试测试测试" class="headerlink" title="9.2(测试)测试测试测试"></a>9.2(<font color="blue">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;center&gt;&lt;font size=&quot;7&quot; color=&quot;red&quot;&gt;&lt;strong&gt;测试&lt;/strong&gt;&lt;/font&gt;&lt;/center&gt;
+
+&lt;h1 id=&quot;一、测试&quot;&gt;&lt;a href=&quot;#一、测试&quot; class=&quot;headerlink&quot; title=&quot;一、测试&quot;&gt;&lt;/a&gt;一、
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
