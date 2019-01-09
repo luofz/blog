@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-07T08:18:28.660Z</updated>
+  <updated>2019-01-09T06:39:09.246Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,64 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>second title</title>
-    <link href="http://yoursite.com/2019/01/07/second-title/"/>
-    <id>http://yoursite.com/2019/01/07/second-title/</id>
-    <published>2019-01-07T08:13:36.000Z</published>
-    <updated>2019-01-07T08:18:28.660Z</updated>
+    <title>chrome修改下载路径卡死</title>
+    <link href="http://yoursite.com/2019/01/09/chrome%E4%BF%AE%E6%94%B9%E4%B8%8B%E8%BD%BD%E8%B7%AF%E5%BE%84%E5%8D%A1%E6%AD%BB/"/>
+    <id>http://yoursite.com/2019/01/09/chrome修改下载路径卡死/</id>
+    <published>2019-01-09T06:31:56.000Z</published>
+    <updated>2019-01-09T06:39:09.246Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="dier" scheme="http://yoursite.com/categories/dier/"/>
-    
-    
-      <category term="标签" scheme="http://yoursite.com/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>new title</title>
-    <link href="http://yoursite.com/2019/01/07/new-title/"/>
-    <id>http://yoursite.com/2019/01/07/new-title/</id>
-    <published>2019-01-07T08:04:17.000Z</published>
-    <updated>2019-01-07T08:14:31.906Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/07/hello-world/"/>
-    <id>http://yoursite.com/2019/01/07/hello-world/</id>
-    <published>2019-01-07T02:12:19.820Z</published>
-    <updated>2019-01-07T08:30:21.473Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题:"></a>问题:</h3><p>在安装了最新版本的chrome浏览器后,遇到了更改默认下载路径就会一直卡死的情况.</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法:"></a>解决办法:</h3><p>在网上查了一下,发现原来是搜狗输入法的原因,只要在更改下载路径时切换成其它输入法就ok了</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题:&quot;&gt;&lt;/a&gt;问题:&lt;/h3&gt;&lt;p&gt;在安装了最新版本的chrome浏览器后,遇到了更改默认下载路径就会一直卡死的情况.&lt;/p&gt;
+&lt;h3 id=&quot;解决办法&quot;&gt;&lt;a href=
       
     
     </summary>
     
+      <category term="chrome" scheme="http://yoursite.com/categories/chrome/"/>
+    
+    
+      <category term="chrome" scheme="http://yoursite.com/tags/chrome/"/>
+    
+      <category term="疑难问题" scheme="http://yoursite.com/tags/%E7%96%91%E9%9A%BE%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
   <entry>
-    <title>近期目标</title>
-    <link href="http://yoursite.com/2018/12/24/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2018/12/24/测试/</id>
-    <published>2018-12-24T15:29:53.000Z</published>
-    <updated>2019-01-07T09:01:01.311Z</updated>
+    <title>这是一个测试</title>
+    <link href="http://yoursite.com/2019/01/07/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2019/01/07/测试/</id>
+    <published>2019-01-07T09:29:53.000Z</published>
+    <updated>2019-01-07T09:34:03.747Z</updated>
     
     <content type="html"><![CDATA[<center><font size="7" color="red"><strong>测试</strong></font></center><h1 id="一、测试"><a href="#一、测试" class="headerlink" title="一、测试"></a>一、测试</h1><p>测试<font size="5" color="red"><strong>测试</strong></font>测试测试测试</p><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">测试</span><br><span class="line">测试测试测试测试</span><br><span class="line">测试测试测试测试</span><br><span class="line">测试</span><br></pre></td></tr></table></figure><h1 id="二-测试测试测试"><a href="#二-测试测试测试" class="headerlink" title="二.测试测试测试"></a>二.测试测试测试</h1><h2 id="1-测试测试测试-html5-95"><a href="#1-测试测试测试-html5-95" class="headerlink" title="1.(测试测试测试)html5  (95%)"></a>1.(<font color="green">测试测试测试</font>)html5  (95%)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">测试测试</span><br><span class="line"></span><br><span class="line">测试  测试</span><br></pre></td></tr></table></figure><p>​       </p><h2 id="2-测试-测试-60"><a href="#2-测试-测试-60" class="headerlink" title="2.(测试)测试(60%)"></a>2.(<font color="green">测试</font>)测试(60%)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试</span><br><span class="line">测试测试测试</span><br><span class="line">测试测试测试</span><br><span class="line">测试</span><br><span class="line">测试测试</span><br><span class="line">测试</span><br></pre></td></tr></table></figure><h2 id="3-测试-测试-10"><a href="#3-测试-测试-10" class="headerlink" title="3.(测试)测试(10%)"></a>3.(<font color="blue">测试</font>)测试(10%)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试测试测试测试测试测试</span><br></pre></td></tr></table></figure><h2 id="4-1-测试-测试测试测试"><a href="#4-1-测试-测试测试测试" class="headerlink" title="4.1(测试)测试测试测试"></a>4.1(<font color="green">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">测试</span><br><span class="line"></span><br><span class="line">测试测试测试</span><br><span class="line"></span><br><span class="line">测试</span><br></pre></td></tr></table></figure><h2 id="4-2-测试-测试"><a href="#4-2-测试-测试" class="headerlink" title="4.2(测试)测试"></a>4.2(<font color="blue">测试</font>)测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试测试测试</span><br><span class="line">测试测试</span><br><span class="line">测试测试</span><br><span class="line">测试测试测试测试测试</span><br></pre></td></tr></table></figure><h2 id="5-测试-测试"><a href="#5-测试-测试" class="headerlink" title="5.(测试)测试"></a>5.(<font color="orange">测试</font>)测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">测试测试测试测试</span><br><span class="line">测试测试</span><br><span class="line">测试</span><br><span class="line">测试测试测试</span><br></pre></td></tr></table></figure><h2 id="7-测试-测试"><a href="#7-测试-测试" class="headerlink" title="7.(测试)测试"></a>7.(<font color="orange">测试</font>)测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="8-测试-测试测试测试"><a href="#8-测试-测试测试测试" class="headerlink" title="8.(测试)测试测试测试"></a>8.(<font color="orange">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="9-1-测试-测试测试测试"><a href="#9-1-测试-测试测试测试" class="headerlink" title="9.1(测试)测试测试测试"></a>9.1(<font color="orange">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="9-2-测试-测试测试测试"><a href="#9-2-测试-测试测试测试" class="headerlink" title="9.2(测试)测试测试测试"></a>9.2(<font color="blue">测试</font>)测试测试测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -95,6 +70,102 @@
     
     
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>second title</title>
+    <link href="http://yoursite.com/2019/01/07/second-title/"/>
+    <id>http://yoursite.com/2019/01/07/second-title/</id>
+    <published>2019-01-07T08:13:36.000Z</published>
+    <updated>2019-01-07T08:18:28.660Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="dier" scheme="http://yoursite.com/categories/dier/"/>
+    
+    
+      <category term="标签" scheme="http://yoursite.com/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设置VS Code使其识别ejs</title>
+    <link href="http://yoursite.com/2019/01/07/%E8%AE%BE%E7%BD%AEVS%20Code%E4%BD%BF%E5%85%B6%E8%AF%86%E5%88%ABejs/"/>
+    <id>http://yoursite.com/2019/01/07/设置VS Code使其识别ejs/</id>
+    <published>2019-01-07T08:04:17.000Z</published>
+    <updated>2019-01-09T07:23:50.138Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装路径下找到 Microsoft VS Code\resources\app\extensions\html \package.json文件 在找到</p><p>contributes下添加</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">"aliases": "ejs",</span><br><span class="line">"extensions": ".ejs"</span><br></pre></td></tr></table></figure><p>重启即可</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;安装路径下找到 Microsoft VS Code\resources\app\extensions\html \package.json文件 在找到&lt;/p&gt;
+&lt;p&gt;contributes下添加&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;t
+      
+    
+    </summary>
+    
+      <category term="vs code" scheme="http://yoursite.com/categories/vs-code/"/>
+    
+    
+      <category term="vs code" scheme="http://yoursite.com/tags/vs-code/"/>
+    
+      <category term=".ejs" scheme="http://yoursite.com/tags/ejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/01/07/hello-world/"/>
+    <id>http://yoursite.com/2019/01/07/hello-world/</id>
+    <published>2019-01-07T02:12:19.820Z</published>
+    <updated>2019-01-07T13:46:28.029Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MarkDown首行缩进</title>
+    <link href="http://yoursite.com/2018/09/09/MarkDown%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B/"/>
+    <id>http://yoursite.com/2018/09/09/MarkDown首行缩进/</id>
+    <published>2018-09-09T06:42:57.000Z</published>
+    <updated>2019-01-09T07:24:01.902Z</updated>
+    
+    <content type="html"><![CDATA[<p>首行缩进<br>使用特殊占位符<br>不同占位符所占空白是不一样大的。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;ensp;或&amp;#8194; //半角</span><br><span class="line">&amp;emsp;或&amp;#8195; //全角</span><br><span class="line">&amp;nbsp;或&amp;#160;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;首行缩进&lt;br&gt;使用特殊占位符&lt;br&gt;不同占位符所占空白是不一样大的。&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;
+      
+    
+    </summary>
+    
+      <category term="MarkDown" scheme="http://yoursite.com/categories/MarkDown/"/>
+    
+    
+      <category term="MarkDown" scheme="http://yoursite.com/tags/MarkDown/"/>
+    
+      <category term="语法" scheme="http://yoursite.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   

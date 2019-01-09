@@ -346,9 +346,9 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/2018/12/24/测试/">
+        <a class="abstract-title" href="/2019/01/07/测试/">
             
-                <span>近期目标</span>
+                <span>这是一个测试</span>
         </a>
         <div class="abstract-content">
             this is a custom abstract
@@ -356,7 +356,7 @@
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/12/24</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/01/07</span>
             </div>
             <!-- tags  -->
             
@@ -460,6 +460,30 @@
     
     </div>
     
+    
+
+    <!--网站运行时间-->
+    <div class="busuanzi-container">
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+    </div>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("10/10/2018 17:38:00");//在此处修改你的建站时间
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
+
+
 </footer>
     </div>
     <!-- toc -->
@@ -510,9 +534,35 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        总数 : 4
+        总数 : 6
         </div>
         <!-- search  -->
         
@@ -522,20 +572,6 @@
     
     
     
-    
-    <div class="archive-year"> 2019 </div>
-    <ul class="year-list">
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/second-title/">second title</a>
-        </li>
-    
-    
-    
-    
-    
-        </ul>
     
     <div class="archive-year"> Invalid date </div>
     <ul class="year-list">
@@ -556,7 +592,22 @@
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/new-title/">new title</a>
+            <span class="archive-post-date">01/09</span><a class="archive-post-title" href="/2019/01/09/chrome修改下载路径卡死/">chrome修改下载路径卡死</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/测试/">这是一个测试</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/设置VS Code使其识别ejs/">设置VS Code使其识别ejs</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/second-title/">second title</a>
         </li>
     
     
@@ -570,7 +621,7 @@
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">12/24</span><a class="archive-post-title" href="/2018/12/24/测试/">近期目标</a>
+            <span class="archive-post-date">09/09</span><a class="archive-post-title" href="/2018/09/09/MarkDown首行缩进/">MarkDown首行缩进</a>
         </li>
     
     </ul></div>
@@ -578,9 +629,21 @@
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
     
-        <span class="sidebar-tag-name" data-tags="hexo"><span class="iconfont-archer">&#xe606;</span>hexo</span>
+        <span class="sidebar-tag-name" data-tags="chrome"><span class="iconfont-archer">&#xe606;</span>chrome</span>
+    
+        <span class="sidebar-tag-name" data-tags="疑难问题"><span class="iconfont-archer">&#xe606;</span>疑难问题</span>
+    
+        <span class="sidebar-tag-name" data-tags="MarkDown"><span class="iconfont-archer">&#xe606;</span>MarkDown</span>
+    
+        <span class="sidebar-tag-name" data-tags="语法"><span class="iconfont-archer">&#xe606;</span>语法</span>
     
         <span class="sidebar-tag-name" data-tags="标签"><span class="iconfont-archer">&#xe606;</span>标签</span>
+    
+        <span class="sidebar-tag-name" data-tags="vs code"><span class="iconfont-archer">&#xe606;</span>vs code</span>
+    
+        <span class="sidebar-tag-name" data-tags=".ejs"><span class="iconfont-archer">&#xe606;</span>.ejs</span>
+    
+        <span class="sidebar-tag-name" data-tags="hexo"><span class="iconfont-archer">&#xe606;</span>hexo</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
@@ -615,9 +678,15 @@ jsonContent:
         <div class="sidebar-panel-categories">
     <div class="sidebar-categories-name">
     
-        <span class="sidebar-category-name" data-categories="博客"><span class="iconfont-archer">&#xe60a;</span>博客</span>
+        <span class="sidebar-category-name" data-categories="chrome"><span class="iconfont-archer">&#xe60a;</span>chrome</span>
+    
+        <span class="sidebar-category-name" data-categories="MarkDown"><span class="iconfont-archer">&#xe60a;</span>MarkDown</span>
     
         <span class="sidebar-category-name" data-categories="dier"><span class="iconfont-archer">&#xe60a;</span>dier</span>
+    
+        <span class="sidebar-category-name" data-categories="vs-code"><span class="iconfont-archer">&#xe60a;</span>vs-code</span>
+    
+        <span class="sidebar-category-name" data-categories="博客"><span class="iconfont-archer">&#xe60a;</span>博客</span>
     
         <span class="sidebar-category-name" data-categories="博客/hexo"><span class="iconfont-archer">&#xe60a;</span>博客/hexo</span>
     
