@@ -26,7 +26,7 @@
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
-        src: url("/font/Oswald-Regular.ttf");
+        src: url("/blog/font/Oswald-Regular.ttf");
     }
 
     body {
@@ -75,8 +75,8 @@
 
 </style>
 
-    <link rel="preload" href="/css/style.css?v=20180824" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="/css/mobile.css?v=20180824" media="(max-width: 980px)">
+    <link rel="preload" href="/blog/css/style.css?v=20180824" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="/blog/css/mobile.css?v=20180824" media="(max-width: 980px)">
     
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
@@ -187,11 +187,11 @@
 }( typeof global !== "undefined" ? global : this ) );
 </script>
 
-    <link rel="icon" href="/assets/favicon1.ico">
+    <link rel="icon" href="/blog/assets/favicon1.ico">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js" as="script">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" as="script">
-    <link rel="preload" href="/scripts/main.js" as="script">
-    <link rel="preload" as="font" href="/font/Oswald-Regular.ttf" crossorigin="">
+    <link rel="preload" href="/blog/scripts/main.js" as="script">
+    <link rel="preload" as="font" href="/blog/font/Oswald-Regular.ttf" crossorigin="">
     <link rel="preload" as="font" href="https://at.alicdn.com/t/font_327081_1dta1rlogw17zaor.woff" crossorigin="">
     
     <!-- fancybox -->
@@ -214,14 +214,14 @@
     
     <div class="banner">
             <div class="blog-title">
-                <a href="/">luofz&#39;s Blog.</a>
+                <a href="/blog/">luofz&#39;s Blog.</a>
             </div>
             <div class="post-title">
                 <a href="#" class="post-name">MarkDown首行缩进</a>
             </div>
     </div>
     
-    <a class="home-link" href="/">luofz's Blog.</a>
+    <a class="home-link" href="/blog/">luofz's Blog.</a>
 </header>
     <div class="wrapper">
         <div class="site-intro" style="
@@ -241,7 +241,7 @@ height:50vh;
     <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/postbg1.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/blog/intro/postbg1.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
@@ -275,7 +275,7 @@ height:50vh;
                 
                 
                     <div class="post-intro-read">
-                        <span>字数统计: <span class="post-count word-count">46</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
+                        <span>字数统计: <span class="post-count word-count">397</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
                     </div>
                 
                 <div class="post-intro-meta">
@@ -397,37 +397,59 @@ height:50vh;
   asyncLoadWithFallBack([
     "https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js", 
     "https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js",
-    "/lib/webfontloader.min.js"
+    "/blog/lib/webfontloader.min.js"
   ], asyncCb, asyncErr)
 </script>        
-        <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+        <img class="loading" src="/blog/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        <p>首行缩进<br>使用特殊占位符<br>不同占位符所占空白是不一样大的。</p>
+        <p>写文章时想要首行缩进,<br>想到markdown可以用html语言,<br>查了下有如下解决方案</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;ensp;或&amp;#8194; //半角</span><br><span class="line">&amp;emsp;或&amp;#8195; //全角</span><br><span class="line">&amp;nbsp;或&amp;#160;</span><br></pre></td></tr></table></figure>
+<p>例子:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">此处顶格</span><br><span class="line">&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;这是`&amp;ensp;`</span><br><span class="line">&amp;#8194;&amp;#8194;&amp;#8194;&amp;#8194;这是`&amp;#8194;`</span><br><span class="line">&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;这是`&amp;emsp;`</span><br><span class="line">&amp;#8195;&amp;#8195;&amp;#8195;&amp;#8195;这是`&amp;#8195; `;</span><br><span class="line">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这是`&amp;nbsp;`</span><br><span class="line">&amp;#160;&amp;#160;&amp;#160;&amp;#160;这是`&amp;#160;`</span><br><span class="line">此处顶格</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>此处顶格</li>
+<li>&ensp;&ensp;&ensp;&ensp;这是<code>&amp;ensp;</code></li>
+<li>&#8194;&#8194;&#8194;&#8194;这是<code>&amp;#8194;</code></li>
+<li>&emsp;&emsp;&emsp;&emsp;这是<code>&amp;emsp;</code></li>
+<li>&#8195;&#8195;&#8195;&#8195;这是<code>&amp;#8195;</code>;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;这是<code>&amp;nbsp;</code></li>
+<li>&#160;&#160;&#160;&#160;这是<code>&amp;#160;</code>  </li>
+<li>此处顶格</li>
+</ul>
+<p>可以看出其中的区别.</p>
+<p>想要首行缩进两字符,半角用4个刚好,全角应该用两个,至于<code>&amp;nbsp;或&amp;#160;</code>很奇怪,<strong>需要用<font color="red">7个</font>&gt;</strong>,而不是8个,不知道是我的原因还是什么.</p>
+<p>如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">- 此处顶格</span><br><span class="line">- &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;这是`&amp;ensp;`</span><br><span class="line">- &amp;#8194;&amp;#8194;&amp;#8194;&amp;#8194;这是`&amp;#8194;`</span><br><span class="line">- &amp;emsp;&amp;emsp;这是`&amp;emsp;`</span><br><span class="line">- &amp;#8195;&amp;#8195;这是`&amp;#8195; `;</span><br><span class="line">- &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这是`&amp;nbsp;`</span><br><span class="line">- &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;这是`&amp;#160;`  </span><br><span class="line">- 此处顶格</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>此处顶格</li>
+<li>&ensp;&ensp;&ensp;&ensp;这是<code>&amp;ensp;</code></li>
+<li>&#8194;&#8194;&#8194;&#8194;这是<code>&amp;#8194;</code></li>
+<li>&emsp;&emsp;这是<code>&amp;emsp;</code></li>
+<li>&#8195;&#8195;这是<code>&amp;#8195;</code>;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是<code>&amp;nbsp;</code></li>
+<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;这是<code>&amp;#160;</code>  </li>
+<li>此处顶格</li>
+</ul>
+
     </article>
     <!-- license  -->
-    
-        <div class="license-wrapper">
-            <p>原文作者：<a href="http://yoursite.com">luofz</a>
-            </p><p>原文链接：<a href="http://yoursite.com/2018/09/09/MarkDown首行缩进/">http://yoursite.com/2018/09/09/MarkDown首行缩进/</a>
-            </p><p>发表日期：<a href="http://yoursite.com/2018/09/09/MarkDown首行缩进/">September 9th 2018, 2:42:57 pm</a>
-            </p><p>更新日期：<a href="http://yoursite.com/2018/09/09/MarkDown首行缩进/">January 9th 2019, 3:24:01 pm</a>
-            </p><p>版权声明：本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
-        </div>
     
     <!-- paginator  -->
     <ul class="post-paginator">
         <li class="next">
             
                 <div class="nextSlogan">下一篇</div>
-                <a href="/2019/01/07/hello-world/" title="Hello World">
-                    <div class="nextTitle">Hello World</div>
+                <a href="/blog/2018/09/17/设置VS Code使其识别ejs/" title="设置VS Code使其识别ejs">
+                    <div class="nextTitle">设置VS Code使其识别ejs</div>
                 </a>
             
         </li>
         <li class="previous">
+            
+                <div class="prevSlogan">上一篇</div>
+                <a href="/blog/2018/09/08/测试/" title="这是一个测试">
+                    <div class="prevTitle">这是一个测试</div>
+                </a>
             
         </li>
     </ul>
@@ -471,7 +493,7 @@ height:50vh;
             
                 <span class="iconfont-archer wechat" title="wechat">
                   
-                  <img class="profile-qr" src="/assets/wechat.png">
+                  <img class="profile-qr" src="/blog/assets/wechat.png">
                 </span>
             
         
@@ -480,7 +502,7 @@ height:50vh;
             
                 <span class="iconfont-archer qq" title="qq">
                   
-                  <img class="profile-qr" src="/assets/qq.jpg">
+                  <img class="profile-qr" src="/blog/assets/qq.jpg">
                 </span>
             
         
@@ -655,9 +677,12 @@ top:50vh;
     
     
     
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        总数 : 6
+        总数 : 7
         </div>
         <!-- search  -->
         
@@ -668,27 +693,12 @@ top:50vh;
     
     
     
-    <div class="archive-year"> 2019 </div>
+    <div class="archive-year"> Invalid date </div>
     <ul class="year-list">
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">01/09</span><a class="archive-post-title" href="/2019/01/09/chrome修改下载路径卡死/">chrome修改下载路径卡死</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/测试/">这是一个测试</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/设置VS Code使其识别ejs/">设置VS Code使其识别ejs</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/2019/01/07/second-title/">second title</a>
+            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href="/blog/2019/01/07/hello-world/">Hello World</a>
         </li>
     
     
@@ -697,12 +707,22 @@ top:50vh;
     
         </ul>
     
-    <div class="archive-year"> Invalid date </div>
+    <div class="archive-year"> 2019 </div>
     <ul class="year-list">
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href="/2019/01/07/hello-world/">Hello World</a>
+            <span class="archive-post-date">01/20</span><a class="archive-post-title" href="/blog/2019/01/20/page/">page</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/09</span><a class="archive-post-title" href="/blog/2019/01/09/chrome修改下载路径卡死/">chrome修改下载路径卡死</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/07</span><a class="archive-post-title" href="/blog/2019/01/07/second-title/">second title</a>
         </li>
     
     
@@ -716,7 +736,17 @@ top:50vh;
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">09/09</span><a class="archive-post-title" href="/2018/09/09/MarkDown首行缩进/">MarkDown首行缩进</a>
+            <span class="archive-post-date">09/17</span><a class="archive-post-title" href="/blog/2018/09/17/设置VS Code使其识别ejs/">设置VS Code使其识别ejs</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/09</span><a class="archive-post-title" href="/blog/2018/09/09/MarkDown首行缩进/">MarkDown首行缩进</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/08</span><a class="archive-post-title" href="/blog/2018/09/08/测试/">这是一个测试</a>
         </li>
     
     </ul></div>
@@ -724,21 +754,21 @@ top:50vh;
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
     
-        <span class="sidebar-tag-name" data-tags="MarkDown"><span class="iconfont-archer">&#xe606;</span>MarkDown</span>
+        <span class="sidebar-tag-name" data-tags="chrome"><span class="iconfont-archer">&#xe606;</span>chrome</span>
     
-        <span class="sidebar-tag-name" data-tags="语法"><span class="iconfont-archer">&#xe606;</span>语法</span>
+        <span class="sidebar-tag-name" data-tags="疑难问题"><span class="iconfont-archer">&#xe606;</span>疑难问题</span>
     
         <span class="sidebar-tag-name" data-tags="标签"><span class="iconfont-archer">&#xe606;</span>标签</span>
+    
+        <span class="sidebar-tag-name" data-tags="hexo"><span class="iconfont-archer">&#xe606;</span>hexo</span>
     
         <span class="sidebar-tag-name" data-tags="vs code"><span class="iconfont-archer">&#xe606;</span>vs code</span>
     
         <span class="sidebar-tag-name" data-tags=".ejs"><span class="iconfont-archer">&#xe606;</span>.ejs</span>
     
-        <span class="sidebar-tag-name" data-tags="hexo"><span class="iconfont-archer">&#xe606;</span>hexo</span>
+        <span class="sidebar-tag-name" data-tags="MarkDown"><span class="iconfont-archer">&#xe606;</span>MarkDown</span>
     
-        <span class="sidebar-tag-name" data-tags="chrome"><span class="iconfont-archer">&#xe606;</span>chrome</span>
-    
-        <span class="sidebar-tag-name" data-tags="疑难问题"><span class="iconfont-archer">&#xe606;</span>疑难问题</span>
+        <span class="sidebar-tag-name" data-tags="语法"><span class="iconfont-archer">&#xe606;</span>语法</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
@@ -773,15 +803,17 @@ jsonContent:
         <div class="sidebar-panel-categories">
     <div class="sidebar-categories-name">
     
-        <span class="sidebar-category-name" data-categories="MarkDown"><span class="iconfont-archer">&#xe60a;</span>MarkDown</span>
+        <span class="sidebar-category-name" data-categories="chrome"><span class="iconfont-archer">&#xe60a;</span>chrome</span>
     
         <span class="sidebar-category-name" data-categories="dier"><span class="iconfont-archer">&#xe60a;</span>dier</span>
     
-        <span class="sidebar-category-name" data-categories="vs-code"><span class="iconfont-archer">&#xe60a;</span>vs-code</span>
+        <span class="sidebar-category-name" data-categories="分类"><span class="iconfont-archer">&#xe60a;</span>分类</span>
     
         <span class="sidebar-category-name" data-categories="博客"><span class="iconfont-archer">&#xe60a;</span>博客</span>
     
-        <span class="sidebar-category-name" data-categories="chrome"><span class="iconfont-archer">&#xe60a;</span>chrome</span>
+        <span class="sidebar-category-name" data-categories="vs-code"><span class="iconfont-archer">&#xe60a;</span>vs-code</span>
+    
+        <span class="sidebar-category-name" data-categories="MarkDown"><span class="iconfont-archer">&#xe60a;</span>MarkDown</span>
     
         <span class="sidebar-category-name" data-categories="博客/hexo"><span class="iconfont-archer">&#xe60a;</span>博客/hexo</span>
     
@@ -793,7 +825,7 @@ jsonContent:
 </div> 
     <script>
     var siteMeta = {
-        root: "/",
+        root: "/blog/",
         author: "luofz"
     }
 </script>
@@ -803,10 +835,10 @@ jsonContent:
         if (typeof window.$ === 'undefined')
         {
             console.warn('jquery load from jsdelivr failed, will load local script')
-            document.write('<script src="/lib/jquery.min.js">\x3C/script>')
+            document.write('<script src="/blog/lib/jquery.min.js">\x3C/script>')
         }
     </script>
-    <script src="/scripts/main.js"></script>
+    <script src="/blog/scripts/main.js"></script>
     <!-- algolia -->
     
     <!-- busuanzi  -->
@@ -818,7 +850,7 @@ jsonContent:
     </div>
     <!-- async load share.js -->
     
-        <script src="/scripts/share.js" async></script>    
+        <script src="/blog/scripts/share.js" async></script>    
      
     </body>
 </html>
